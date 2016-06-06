@@ -21,7 +21,7 @@ namespace BookStore.Controllers
 
             ViewBag.Books = books;
 
-            Session["test"] = 324;
+            Session["test"] = 324546;
 
             return View();
         }
